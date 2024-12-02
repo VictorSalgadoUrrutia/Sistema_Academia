@@ -5,6 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Academia Excelencia - Sistema de Control Escolar</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
         tailwind.config = {
@@ -25,25 +27,19 @@
     <nav class="bg-academia-blue text-white p-4 shadow-md">
         <div class="container mx-auto flex justify-between items-center">
             <div class="text-2xl font-bold">
-                Academia Excelencia
+                <i class="bi bi-book">Academia Excelencia</i>
             </div>
             <div class="space-x-4">
-                <a href="pages/gestionEstudiantes.php" class="hover:bg-academia-light px-3 py-2 rounded transition">
-                    Gestión de Estudiantes
+                <a href="" class="hover:bg-academia-light px-3 py-2 rounded transition">
+                    Inicio
                 </a>
-                <a href="pages/gestionCursos.php" class="hover:bg-academia-light px-3 py-2 rounded transition">
-                    Gestión de Cursos
+                <a href="" class="hover:bg-academia-light px-3 py-2 rounded transition">
+                    Nosotros
                 </a>
-                <a href="pages/registroCalificaciones.php" class="hover:bg-academia-light px-3 py-2 rounded transition">
-                    Registro de Calificaciones
+                <a href="" class="hover:bg-academia-light px-3 py-2 rounded transition">
+                    Cursos
                 </a>
-                <a href="pages/registroAsistencias.php" class="hover:bg-academia-light px-3 py-2 rounded transition">
-                    Registro de Asistencia
-                </a>
-                <a href="pages/generacionReportes.php" class="hover:bg-academia-light px-3 py-2 rounded transition">
-                    Generación de Reportes
-                </a>
-                
+                              
 
                 <a href="login.php" class="bg-white text-academia-blue px-4 py-2 rounded hover:bg-gray-100 transition">
                     Iniciar Sesión
@@ -68,7 +64,7 @@
                     <a href="pages/servicios.php" class="bg-academia-blue text-white px-6 py-3 rounded hover:bg-academia-light transition">
                         Explorar Servicios
                     </a>
-                    <a href="pages/contacto.php" class="border border-academia-blue text-academia-blue px-6 py-3 rounded hover:bg-gray-100 transition">
+                    <a href="pages/contacto.php" class="bg-academia-blue text-white px-6 py-3 rounded hover:bg-academia-light transition">
                         Contactanos
                     </a>
                 </div>
@@ -169,9 +165,20 @@
             </div>
             <div>
                 <h4 class="font-semibold mb-3">Contacto</h4>
-                <p>Teléfono: (55) 1234-5678</p>
-                <p>Email: info@academiaexcelencia.edu.mx</p>
-                <p>Dirección: Av. Educación 123, CDMX</p>
+                <ul>
+                    <li>
+                        <i class="bi bi-telephone"></i>
+                        Teléfono: (55) 1234-5678     
+                    </li>
+                    <li>
+                        <i class="bi bi-envelope"></i>
+                        Email: info@acadeExce.edu.mx
+                    </li>
+                    <li>
+                        <i class="bi bi-geo-alt"></i>
+                        Dirección: Av. Educación 123, CDMX
+                    </li>
+                </ul>
             </div>
             <div>
                 <h4 class="font-semibold mb-3">Links Rápidos</h4>
@@ -184,9 +191,20 @@
             <div>
                 <h4 class="font-semibold mb-3">Redes Sociales</h4>
                 <div class="flex space-x-4">
-                    <a href="#" class="hover:text-gray-300">Facebook</a>
-                    <a href="#" class="hover:text-gray-300">Twitter</a>
-                    <a href="#" class="hover:text-gray-300">Instagram</a>
+                <ul>
+                    <li>
+                        <i class="bi bi-facebook"></i>
+                        Facebook     
+                    </li>
+                    <li>
+                        <i class="bi bi-instagram"></i>
+                        Instagram
+                    </li>
+                    <li>
+                        <i class="bi bi-twitter"></i>
+                        twitter
+                    </li>
+                </ul>
                 </div>
             </div>
         </div>

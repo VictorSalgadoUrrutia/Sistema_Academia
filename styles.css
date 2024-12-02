@@ -1,0 +1,30 @@
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+}
+
+header {
+    background-color: #0082b6; /* Azul personalizado */
+}
+
+header h5 {
+    font-size: 1.2rem;
+    margin-bottom: 0;
+}
+
+header h1 {
+    font-size: 3rem;
+    margin-top: 0.5rem;
+}
+
+header .form-select,
+header .form-control {
+    max-width: 200px;
+}
+
+header .btn {
+    padding: 10px 20px;
+}

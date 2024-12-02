@@ -5,10 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Explorar Servicios - Academia Excelencia</title>
     <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.16/dist/tailwind.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
 </head>
 <body class="flex flex-col min-h-screen">
-    <header class="bg-purple-500 text-white py-4">
+    <header class="bg-blue-500 text-white py-4">
         <div class="container mx-auto px-4">
             <h1 class="text-2xl font-bold">Academia Excelencia</h1>
         </div>
